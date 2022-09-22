@@ -2,6 +2,7 @@
 body{
     scroll-behavior: smooth;
     display: inline-block;
+
 }
 section{
     min-height: 100vh;
@@ -41,26 +42,25 @@ section{
     vertical-align: top;
     padding: 5%;
 }
-#projects{
-
+.projects{
+;
 }
-.projects .project-item {
+.projects .card {
     position: relative;
     background: inherit;
     width: 50%;
     margin-bottom: 30px;
 }
-.projects .project-item.left {
+.left-card{
     left: 0;
-    padding-right: 30px;
+    background-image: url("images/Bluesky.png");
 }
-
-.projects .project-item.right {
+.right-card{
     left: 50%;
-    padding-left: 30px;
+    background-image: url("images/Finance_Story.png");
 }
-#contact{
-    height: 10vh;
+.contact{
+    display: flex;
 }
 @keyframes gradient {
     0% {
